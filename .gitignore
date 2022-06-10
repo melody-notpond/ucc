@@ -1,2 +1,4 @@
 ucc
 compile_commands.json
+.cache/
+a.out
