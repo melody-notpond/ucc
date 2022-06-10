@@ -4,7 +4,10 @@
  - functions
  - structs
  - unions
+ - enums
  - pointers
  - arrays
  - global variables
  - local variables
+ - header files
+ - basic macros (`#include`, `#ifdef` and friends, `#define` (but only for constant macros))

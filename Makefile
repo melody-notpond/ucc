@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -Wextra -g
+CFLAGS=-Wall -Wextra -g -Iinclude/
 SRC=src/
 
 all: $(SRC)*.c
