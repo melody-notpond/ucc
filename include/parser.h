@@ -26,4 +26,12 @@ typedef struct {
 // Parses a string into an abstract syntax tree. Returns an error message on failure.
 ParseResult ucc_parser_parse(char *string);
 
+// ucc_print_ast(Ast *) -> void
+// Prints out an ast.
+void ucc_print_ast(Ast *ast);
+
+// ucc_clean_ast(Ast *) -> void
+// Cleans up an Ast node and its children.
+void ucc_clean_ast(Ast *ast);
+
 #endif /* PARSER_H */

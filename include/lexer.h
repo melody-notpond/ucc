@@ -95,4 +95,8 @@ Lexer ucc_new_lexer(char *string);
 // Lexes the next token from the given string.
 Token ucc_lexer_next(Lexer *lexer);
 
+// ucc_print_token(Token) -> void
+// Prints out a token to stdout.
+void ucc_print_token(Token token);
+
 #endif /* LEXER_H */
